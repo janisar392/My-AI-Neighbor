@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className="container mx-auto flex flex-col items-center justify-center text-center py-20 lg:py-40">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 leading-tight">
-                Transform Your Photos into <br /> Ghibli Art with My AI Neighbor
+                Transform Your Imagination & Photos into <br /> Ghibli Art with My AI Neighbor
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mb-8">
                 Experience the magic of Studio Ghibli's artistic style with our AI-powered Ghibli image generator tool.

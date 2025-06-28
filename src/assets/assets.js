@@ -9,6 +9,7 @@ import grid_8 from "./grid-08.png";
 import grid_9 from "./grid-09.png";
 import grid_10 from "./grid-10.png";
 import grid_11 from "./grid-11.png";
+import logo from "./logo.png";
 import step1 from "./step1.png";
 
 export const assets = {
@@ -23,5 +24,6 @@ export const assets = {
   grid_9,
   grid_10,
   grid_11,
+  logo,
   step1
 };

@@ -1,12 +1,20 @@
 import {Link, NavLink} from "react-router-dom";
+import { assets } from "../assets/assets";
 
 const Header = () => (
     <header className="border-b border-gray-300/80 sticky top-0 bg-[#F5F3EF]/90 backdrop-blur-sm z-40">
         <nav className="container mx-auto flex justify-between items-center p-4 px-8">
             <Link to="/" className="flex items-center text-xl font-bold tracking-wider cursor-pointer">
-                <div className="bg-gray-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg mr-2">
-                    G
+                <div className="bg-gray-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg mr-2 overflow-hidden">
+                <img
+                   src={assets.logo}
+                   alt="Logo"
+                   className="w-full h-full object-cover"
+                   />
                 </div>
+
+
+
                 My AI Neighbor
             </Link>
             <div className="hidden md:flex items-center space-x-8">

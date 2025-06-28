@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
-import {Facebook, Instagram, Twitter} from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
+
 
 const Footer = () => (
     <footer className="bg-[#F5F3EF]">
@@ -9,7 +10,7 @@ const Footer = () => (
                 <div className="col-span-1 md:col-span-1">
                     <div className="flex items-center mb-2">
                         <div className="bg-gray-800 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-lg mr-2">
-                            G
+                            J
                         </div>
                         <h3 className="text-xl font-bold">My AI Neighbor</h3>
                     </div>
@@ -53,9 +54,9 @@ const Footer = () => (
             <div className="border-t border-gray-400/50 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
                 <p>&copy; 2025 My AI Neighbor. All rights reserved.</p>
                 <div className="flex space-x-4 mt-4 md:mt-0">
-                    <a href="#" className="hover:text-gray-900"><Twitter size={18} /></a>
-                    <a href="#" className="hover:text-gray-900"><Instagram size={18} /></a>
-                    <a href="#" className="hover:text-gray-900"><Facebook size={18} /></a>
+                    <a href="https://www.linkedin.com/in/janisar-akhtar" className="hover:text-gray-900"><Linkedin size={18} /></a>
+                    <a href="https://www.instagram.com/janisar392" className="hover:text-gray-900"><Instagram size={18} /></a>
+                    <a href="https://www.facebook.com/janisar392" className="hover:text-gray-900"><Facebook size={18} /></a>
                 </div>
             </div>
         </div>
