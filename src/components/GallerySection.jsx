@@ -9,6 +9,22 @@ const GallerySection = () => {
             title: "Whimsical Forest Dweller",
         },
         {
+            imageSrc: assets.grid_5,
+            title: "Sky Pirate's Retreat",
+        },
+        {
+            imageSrc: assets.grid_8,
+            title: "Spirited River Journey",
+        },
+        {
+            imageSrc: assets.grid_4,
+            title: "Enchanted Garden Spirit",
+        },
+        {
+            imageSrc: assets.grid_9,
+            title: "Whimsical Forest Dweller",
+        },
+        {
             imageSrc: assets.grid_2,
             title: "Sky Pirate's Retreat",
         },
@@ -17,7 +33,7 @@ const GallerySection = () => {
             title: "Spirited River Journey",
         },
         {
-            imageSrc: assets.grid_4,
+            imageSrc: assets.grid_10,
             title: "Enchanted Garden Spirit",
         },
     ];

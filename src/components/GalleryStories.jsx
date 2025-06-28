@@ -18,6 +18,18 @@ const GalleryStories = () => {
                             className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
                         />
                     </div>
+                    <div className="rounded-lg overflow-hidden shadow-md">
+                        <img
+                            src={assets.grid_10}
+                            className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
+                        />
+                    </div>
+                    <div className="rounded-lg overflow-hidden shadow-md">
+                        <img
+                            src={assets.grid_11}
+                            className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
+                        />
+                    </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                     See how our My AI Neighbor generator transforms ordinary landscapes into breathtaking Studio Ghibli worlds with authentic Ghibli art style and magical details in every Ghibli image.
@@ -28,13 +40,25 @@ const GalleryStories = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div className="rounded-lg overflow-hidden shadow-md">
                         <img
-                            src={assets.grid_1}
+                            src={assets.grid_5}
                             className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
                         />
                     </div>
                     <div className="rounded-lg overflow-hidden shadow-md">
                         <img
-                            src={assets.grid_2}
+                            src={assets.grid_7}
+                            className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
+                        />
+                    </div>
+                    <div className="rounded-lg overflow-hidden shadow-md">
+                        <img
+                            src={assets.grid_8}
+                            className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
+                        />
+                    </div>
+                    <div className="rounded-lg overflow-hidden shadow-md">
+                        <img
+                            src={assets.grid_9}
                             className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
                         />
                     </div>
